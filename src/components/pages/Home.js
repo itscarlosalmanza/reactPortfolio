@@ -1,19 +1,19 @@
 import React from "react";
+import me from "../img/me.jpg";
+import "./styles/homeStyles.css"
 
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+    <div class="me">
+      <h1>Welcome,</h1>
+      <h4>
+        Hello, I'm Carlos Almanza a fullstack web-dev student at Denver University. Check me out and let's build together.
+      </h4>
+      <a href="" target="_blank">
+      <div class="imageBox">
+        <img src={me} alt="me"/>
+    </div>
+    </a>
     </div>
   );
 }

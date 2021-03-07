@@ -1,14 +1,15 @@
 import React from "react";
+import "./styles/about.css"
 
 function Learn() {
   return (
-    <div>
+    <div class="learn">
       <h1 className="text-center">hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
+      <ul>
+        <li><p>Email me:  <a  href="mailto:itscarlosalmanza@gmail.com" target="_blank" >click me!</a></p></li>
+        <li><p>My GitHub:  <a  href="https://github.com/itscarlosalmanza" target="_blank" >click me!</a></p></li>
+        <li>LinkedIn</li>
+      </ul>
     </div>
   );
 }
